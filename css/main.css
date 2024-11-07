@@ -1,0 +1,17 @@
+/* RESET */
+@import './reset.css';
+
+/* BASE */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import './base.css';
+@import './vars.css';
+
+/* SECTIONS */
+@import './header.css';
+@import './portfolio.css';
+@import './contacts.css';
+@import './footer.css';
+/* INNER-PAGE */
+@import './inner-page.css';
+/* MEDIA */
+@import './media.css';

@@ -1,0 +1,42 @@
+.contacts {
+	padding: 80px 0;
+	background-color: #252525;
+	color: #fff;
+	border-radius: 100px 0 0 0;
+}
+.contacts-title {
+	font-family: var(--font-family);
+	font-weight: 700;
+	font-size: 52px;
+	text-align: center;
+
+	margin-bottom: 65px;
+}
+.messengers {
+	display: flex;
+	flex-wrap: wrap;
+	column-gap: 30px;
+	row-gap: 30px;
+}
+.messenger {
+	flex-grow: 1;
+
+	padding: 46px 20px;
+	border: 1px solid #363636;
+	border-radius: 20px;
+
+	color: #fff;
+	font-family: var(--font-family);
+	font-weight: 400;
+	font-size: 20px;
+
+	display: flex;
+	column-gap: 15px;
+	align-items: center;
+
+	transition: background-color 0.2s ease-in;
+}
+
+.messenger:hover {
+	background-color: #1e1e1e;
+}
